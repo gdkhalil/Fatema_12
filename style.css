@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.pink-highlight{
+    color: #fd0aa0;
+    font-weight: 900;
+}
+.half-banner{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.half-banner img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("img/header-bg.png");
+    background-position:right;
+    background-size: cover;
+    
+}
+section{
+    height: 520px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #fd0aa0, #c0157e);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.biography-area{
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+.latest-work img{
+    width: 30%;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+}
+.latest-work-area{
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    margin: 30px;
+    padding: 20px;
+}
+
+.client-area{
+    text-align: center;
+    margin: 10px;
+    padding: 40px;
+}
+.client-area h2{
+    font-size: 30px;
+}
+.email-box{
+    background-image: linear-gradient(45deg, #fd0aa0, #c0157e);
+    border: 30px 40px;
+    margin: 20px 70px;
+    padding: 5px;
+    color: white;
+}
+.email-box h4{
+    font-size: 30px;
+}
+.what-client{
+    background-image: url("img/footer-bg.png");
+    background-size: cover;
+    background-position: right;
+    
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
